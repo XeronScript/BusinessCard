@@ -1,0 +1,69 @@
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #dddddd;
+}
+
+.name {
+    margin: 10px 0;
+    font-size: 22px;
+}
+
+.profession {
+    margin: 5px 0;
+    color: #f5a55b;
+}
+
+.email {
+    margin: 5px 0;
+}
+
+.profile-pic {
+    height: 350px;
+    width: 340px;
+    border-radius: 10px 10px 0 0;
+}
+
+.info-buttons {
+    margin-top: 10px;
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.email-btn, .linkedin-btn {
+    width: 100px;
+    height: 32px;
+    border-radius: 10px;
+}
+
+.linkedin-btn {
+    background-color: dodgerblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: none;
+    transition: all 0.2s;
+}
+
+.email-btn {
+    background-color: #dddddd;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: none;
+    transition: all 0.2s;
+}
+
+.linkedin-btn:hover {
+    box-shadow: 0 0 7px dodgerblue;
+    cursor: pointer;
+}
+
+.email-btn:hover {
+    box-shadow: 0 0 7px #dddddd;
+    cursor: pointer;
+}
